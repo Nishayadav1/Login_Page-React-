@@ -1,0 +1,45 @@
+.form{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+
+}
+.icon{
+    color:var(--primary-color);
+    cursor: pointer;
+} 
+.inputAndErrorContainer{
+    width:100%;
+    margin-left:62px;
+}
+.inputContainer{
+     width: 80%;
+    display: flex;
+    gap:0.1rem;
+    border-bottom: 2px solid #6e6c6c;
+
+}
+.passwordInput{
+    width:90%;
+}
+
+.errorMessage{
+    color:rgba(255, 0, 0, 0.904);
+}
+.loginButton{
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color:var(--white-color);
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: #5C6BCB;
+}
